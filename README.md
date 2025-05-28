@@ -1,4 +1,22 @@
-**i2b2 2014 Evaluation Script**
+**i2b2 2014 Evaluation Script - Docker**
+
+A docker wrapper around the i2b2 evaluation scripts as they use ancient versions of python.
+
+Build container:
+
+```bash
+docker build -t i2b2-eval .
+```
+
+Run with:
+
+```bash
+./run_eval.sh /path/to/preds /path/to/gold
+```
+
+----------
+
+## Original README
 
 This script is distributed as a part of the i2b2 2014 Cardiac Risk and 
 Protected Health Information (PHI) tasks. 
