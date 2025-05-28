@@ -37,5 +37,5 @@ fi
 docker run --rm \
     -v "$GOLD_DIR":/gold \
     -v "$PRED_DIR":/pred \
-    i2b2-eval phi -v "/gold/$GOLD_ABS" "/pred/$PRED_ABS"
+    i2b2-eval phi "/gold/$GOLD_ABS" "/pred/$PRED_ABS"
 
