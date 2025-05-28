@@ -1,4 +1,4 @@
-**i2b2 2014 Evaluation Script - Docker**
+# i2b2 2014 Evaluation Script - Docker
 
 A docker wrapper around the i2b2 evaluation scripts as they use ancient versions of python.
 
